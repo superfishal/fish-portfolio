@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
+import React from "react";
 
-function Nav() {
+function NavBar() {
   return (
     <nav>
       <h2>Andys Nav</h2>
@@ -22,4 +23,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default NavBar;

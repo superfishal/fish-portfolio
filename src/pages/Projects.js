@@ -1,42 +1,44 @@
+import budgetTracker from "../assets/images/budget-tracker-screenshot.png";
+
 const projects = [
   {
-    title: "runbuddy",
-    img: "https://via.placeholder.com/350x250",
-    github: "www.github.com",
-    deployed: "www.heroku.com",
+    title: "Proper Sound / Superfishal",
+    img: "../assets/images/PS_Cover_Photo.jpeg",
+    github: "https://www.facebook.com/propersoundpdx/",
+    deployed: "https://www.facebook.com/superfishaldj",
   },
   {
-    title: "propersound",
-    img: "https://via.placeholder.com/350x250",
-    github: "www.github.com",
-    deployed: "www.heroku.com",
+    title: "Poke Builder V2",
+    img: "../assets/images/pokebuilder_cover_photo.png",
+    github: "https://github.com/superfishal/poke-builder-V2",
+    deployed: "https://pokebuilder-v2.herokuapp.com/",
   },
   {
-    title: "deep thoughts",
-    img: "https://via.placeholder.com/350x250",
-    github: "www.github.com",
-    deployed: "www.heroku.com",
+    title: "Deep Thoughts",
+    img: "../assets/images/deepthoughts_cover_phot.png",
+    github: "https://github.com/superfishal/deep-thoughts",
+    deployed: "https://superfishal-deep-thoughts.herokuapp.com/",
   },
   {
-    title: "nextproject",
-    img: "https://via.placeholder.com/350x250",
-    github: "www.github.com",
-    deployed: "www.heroku.com",
+    title: "Pizza Hunt",
+    img: "../assets/images/pizzaHunt_cover_photo.png",
+    github: "https://github.com/superfishal/Pizza-Hunt",
+    deployed: "https://whispering-meadow-86661.herokuapp.com/",
   },
   {
-    title: "nextproject1",
-    img: "https://via.placeholder.com/350x250",
-    github: "www.github.com",
-    deployed: "www.heroku.com",
+    title: "Budget Tracker",
+    img: "../assets/images/budget-tracker-screenshot.png",
+    github: "https://github.com/superfishal/budget-tracker",
+    deployed: "https://superfishal-budget-tracker.herokuapp.com/",
   },
   {
-    title: "lastproject",
-    img: "https://via.placeholder.com/350x250",
-    github: "www.github.com",
-    deployed: "www.heroku.com",
+    title: "Note Taker",
+    img: "../assets/images/PS_Cover_Photo.jpeg",
+    github: "https://github.com/superfishal/Note-Taker",
+    deployed: "https://superfishal-note-taker.herokuapp.com/",
   },
 ];
-
+// map function to display each project as a card
 function Projects() {
   return (
     <div className="projectCards">
@@ -50,7 +52,6 @@ function Projects() {
             <a href={project.deployed}>Deployed</a>
           </div>
         );
-        // turn this div into a card for each project
       })}
     </div>
   );
