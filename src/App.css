@@ -15,14 +15,6 @@
     border: 2px solid red;
     flex-grow: 1;
 }
-
-.projectCards {
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
 footer{
     background-color: lightblue;
 }

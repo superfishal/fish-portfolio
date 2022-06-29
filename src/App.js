@@ -1,4 +1,4 @@
-import Nav from "./components/Nav";
+import NavBar from "./components/Nav";
 import Footer from "./components/Footer";
 import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="appFlex">
-        <Nav />
+        <NavBar />
         <div className="main-stuff">
           <Routes>
             <Route path="/" element={<AboutMe />} />

@@ -1,39 +1,44 @@
-import budgetTracker from "../assets/images/budget-tracker-screenshot.png";
-
+import superfishal from "../../assets/images/superfishal_cover_photo.jpeg";
+import poke from "../../assets/images/pokebuilder_cover_photo.png";
+import deepthoughts from "../../assets/images/deepthoughts_cover_phot.png";
+import pizzahunt from "../../assets/images/pizzaHunt_cover_photo.png";
+import budget from "../../assets/images/budget-tracker-screenshot.png";
+import notetaker from "../../assets/images/NoteTake_cover_photo.png";
+import { ProjectContainer, ProjectCard, CoverPhoto } from "./style";
 const projects = [
   {
     title: "Proper Sound / Superfishal",
-    img: "../assets/images/PS_Cover_Photo.jpeg",
+    img: superfishal,
     github: "https://www.facebook.com/propersoundpdx/",
     deployed: "https://www.facebook.com/superfishaldj",
   },
   {
     title: "Poke Builder V2",
-    img: "../assets/images/pokebuilder_cover_photo.png",
+    img: poke,
     github: "https://github.com/superfishal/poke-builder-V2",
     deployed: "https://pokebuilder-v2.herokuapp.com/",
   },
   {
     title: "Deep Thoughts",
-    img: "../assets/images/deepthoughts_cover_phot.png",
+    img: deepthoughts,
     github: "https://github.com/superfishal/deep-thoughts",
     deployed: "https://superfishal-deep-thoughts.herokuapp.com/",
   },
   {
     title: "Pizza Hunt",
-    img: "../assets/images/pizzaHunt_cover_photo.png",
+    img: pizzahunt,
     github: "https://github.com/superfishal/Pizza-Hunt",
     deployed: "https://whispering-meadow-86661.herokuapp.com/",
   },
   {
     title: "Budget Tracker",
-    img: "../assets/images/budget-tracker-screenshot.png",
+    img: budget,
     github: "https://github.com/superfishal/budget-tracker",
     deployed: "https://superfishal-budget-tracker.herokuapp.com/",
   },
   {
     title: "Note Taker",
-    img: "../assets/images/PS_Cover_Photo.jpeg",
+    img: notetaker,
     github: "https://github.com/superfishal/Note-Taker",
     deployed: "https://superfishal-note-taker.herokuapp.com/",
   },
@@ -41,20 +46,24 @@ const projects = [
 // map function to display each project as a card
 function Projects() {
   return (
-    <div className="projectCards">
+    <ProjectContainer>
       {projects.map((project) => {
         return (
-          <div>
+          <ProjectCard>
             <h2>{project.title}</h2>
-            <img src={project.img} alt={project.title} />
+            <CoverPhoto>
+              <img src={project.img} alt={project.title} />
+            </CoverPhoto>
             <br />
             <a href={project.github}>Github</a>
             <a href={project.deployed}>Deployed</a>
-          </div>
+          </ProjectCard>
         );
       })}
-    </div>
+    </ProjectContainer>
   );
 }
 
+// ask jude about packages for styling/organization
+// react-bootstrap / should i integrate MERN stack
 export default Projects;
