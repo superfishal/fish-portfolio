@@ -2,7 +2,7 @@ import NavBar from "./components/Nav";
 import Footer from "./components/Footer";
 import AboutMe from "./pages/AboutMe/index";
 import Projects from "./pages/Projects/index";
-import Resume from "./pages/Resume";
+import Resume from "./pages/Resume/index";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
