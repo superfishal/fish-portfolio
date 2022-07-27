@@ -5,6 +5,7 @@ export const StyledFooter = styled.footer`
     padding: 1rem 2rem;
 `
 export const Icons = styled.div`
+color: papayawhip;
     display: flex;
     font-size: 2.5rem;
     gap: 3rem;

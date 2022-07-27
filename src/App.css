@@ -5,16 +5,17 @@
 }
 
 .appFlex{
-    border: 2px dashed blue;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-
-.main-stuff {
-    border: 2px solid red;
-    flex-grow: 1;
+nav {
+    background: #000c14;
 }
-footer{
-    background-color: lightblue;
+footer {
+    background: #000c14;
+}
+.main-stuff {
+    background: papayawhip;
+    flex-grow: 1;
 }

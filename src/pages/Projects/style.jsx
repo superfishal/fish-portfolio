@@ -7,12 +7,20 @@ export const ProjectContainer = styled.div`
     gap: 30px;
 `
 export const ProjectCard = styled.div`
-    border: 2px solid #ddd;
+    border: 2px solid #000c14;
     border-radius: 8px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 `
-
+export const Links = styled.div`
+display: flex;
+justify-content: space-around;
+`
+export const ProjectLink = styled.a`
+font-family: "Mochiy Pop P One";
+text-decoration: none;
+color: #000c14;
+`
 export const CoverPhoto = styled.div`
     flex-grow: 1;
 

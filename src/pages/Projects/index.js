@@ -4,7 +4,13 @@ import deepthoughts from "../../assets/images/deepthoughts_cover_phot.png";
 import pizzahunt from "../../assets/images/pizzaHunt_cover_photo.png";
 import budget from "../../assets/images/budget-tracker-screenshot.png";
 import notetaker from "../../assets/images/NoteTake_cover_photo.png";
-import { ProjectContainer, ProjectCard, CoverPhoto } from "./style";
+import {
+  ProjectContainer,
+  ProjectCard,
+  ProjectLink,
+  Links,
+  CoverPhoto,
+} from "./style";
 const projects = [
   {
     title: "Proper Sound / Superfishal",
@@ -55,8 +61,10 @@ function Projects() {
               <img src={project.img} alt={project.title} />
             </CoverPhoto>
             <br />
-            <a href={project.github}>Github</a>
-            <a href={project.deployed}>Deployed</a>
+            <Links>
+              <ProjectLink href={project.github}>Github</ProjectLink>
+              <ProjectLink href={project.deployed}>Deployed</ProjectLink>
+            </Links>
           </ProjectCard>
         );
       })}

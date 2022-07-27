@@ -1,39 +1,22 @@
 import React from "react";
 import { Nav, NavLinks, NavLink, Superfishal } from "./style";
-import { BsPersonCircle, BsFillEmojiSunglassesFill } from "react-icons/bs";
-import { MdOutlineConnectWithoutContact } from "react-icons/md";
-import { GrCodeSandbox, GrDocumentText } from "react-icons/gr";
+import { GiCirclingFish } from "react-icons/gi";
 function NavBar() {
   return (
     <Nav>
       <Superfishal>
-        <BsPersonCircle />
+        <GiCirclingFish />
         Superfishal
       </Superfishal>
       <NavLinks>
         <NavLink to="/">
-          <li>
-            <BsFillEmojiSunglassesFill />
-            About Me
-          </li>
+          <li>About Me</li>
         </NavLink>
         <NavLink to="/projects">
-          <li>
-            <GrCodeSandbox />
-            Projects
-          </li>
-        </NavLink>
-        <NavLink to="/contactme">
-          <li>
-            <MdOutlineConnectWithoutContact />
-            Contact
-          </li>
+          <li>Projects</li>
         </NavLink>
         <NavLink to="/resume">
-          <li>
-            <GrDocumentText />
-            Resume
-          </li>
+          <li>Resume</li>
         </NavLink>
       </NavLinks>
     </Nav>
