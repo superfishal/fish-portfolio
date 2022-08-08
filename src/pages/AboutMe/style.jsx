@@ -11,3 +11,7 @@ export const AboutMeText = styled.h3`
     font-family: "Mochiy Pop P One";
     font-size: 24px;
 `
+export const AboutBold = styled.h3`
+    font-weight: bold;
+    font-style: italic;
+`

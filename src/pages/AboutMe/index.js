@@ -1,22 +1,35 @@
 import React from "react";
-import { AboutMeText, AboutName, AboutContainer } from "./style";
+import { AboutMeText, AboutName, AboutContainer, AboutBold } from "./style";
+import { Skills } from "../../components/Typewriter/style";
+import Type from "../../components/Typewriter/index";
 
 function AboutMe() {
   return (
     <AboutContainer>
       <AboutName>Superfishal</AboutName>
+      <br />
+      <Skills>
+        <Type />
+      </Skills>
       <AboutMeText>
-        Full-Stack Web Developer with extensive background in event production,
-        service industry, and team management.
-        <br />
         <br />
         Certified by the University of Oregon after completing a 24-week,
-        intensive full-stack bootcamp on HTML5, CSS3, Javascript ES6+, database
-        languages, MERN stack, Command Line and Git.
+        intensive full-stack bootcamp on:
+        <br />
+        <AboutBold>
+          HTML5, CSS3, Javascript ES6+, database languages, MERN stack, Command
+          Line and Git.
+        </AboutBold>
         <br />I am a strong team player and passionate about furthering my
-        knowledge in the field. Despite any relevant experience I excel in
-        unfamiliar jobs, everything I've done has been brand new to me and it's
-        fascinating to explore the capabilities of the mind and code.
+        knowledge in the field.
+        <br />
+        Extensive background in event production, hospitality, and team
+        management.
+        <br />
+        Comfortable with many development/design languages and frameworks.
+        <br />
+        My strengths lie in extensive research of documentation, communication,
+        leadership, and critical thinking.
       </AboutMeText>
     </AboutContainer>
   );
