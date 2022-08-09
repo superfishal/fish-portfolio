@@ -13,7 +13,7 @@ export const Superfishal = styled.h2`
     margin-left: 10px;
 `
 export const NavLinks = styled.ul `
-margin-right: 10px;
+    margin-right: 10px;
     display: flex;
     gap: 25px;
     list-style: none;

@@ -8,21 +8,22 @@ import {
   ProjectContainer,
   ProjectCard,
   ProjectLink,
+  ProjectTitle,
   Links,
   CoverPhoto,
 } from "./style";
 const projects = [
   {
-    title: "Proper Sound / Superfishal",
-    img: superfishal,
-    github: "https://www.facebook.com/propersoundpdx/",
-    deployed: "https://www.facebook.com/superfishaldj",
-  },
-  {
     title: "Poke Builder V2",
     img: poke,
     github: "https://github.com/superfishal/poke-builder-V2",
     deployed: "https://pokebuilder-v2.herokuapp.com/",
+  },
+  {
+    title: "Proper Sound / Superfishal",
+    img: superfishal,
+    github: "https://www.facebook.com/propersoundpdx/",
+    deployed: "https://www.facebook.com/superfishaldj",
   },
   {
     title: "Deep Thoughts",
@@ -56,7 +57,7 @@ function Projects() {
       {projects.map((project) => {
         return (
           <ProjectCard>
-            <h2>{project.title}</h2>
+            <ProjectTitle>{project.title}</ProjectTitle>
             <CoverPhoto>
               <img src={project.img} alt={project.title} />
             </CoverPhoto>

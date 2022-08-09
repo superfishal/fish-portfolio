@@ -4,6 +4,7 @@ export const ProjectContainer = styled.div`
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+    margin: 10px 0;
     gap: 30px;
 `
 export const ProjectCard = styled.div`
@@ -11,6 +12,11 @@ export const ProjectCard = styled.div`
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+`
+export const ProjectTitle = styled.h2`
+text-align: center;
+font-family: "Mochiy Pop One";
+
 `
 export const Links = styled.div`
 display: flex;
