@@ -4,8 +4,12 @@ function Footer() {
   return (
     <StyledFooter>
       <Icons>
-        <BsLinkedin />
-        <BsGithub />
+        <a href="https://www.linkedin.com/in/superfishal/">
+          <BsLinkedin />
+        </a>
+        <a href="https://github.com/superfishal">
+          <BsGithub />
+        </a>
       </Icons>
     </StyledFooter>
   );
