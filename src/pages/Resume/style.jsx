@@ -9,11 +9,13 @@ export const ResumeContainer = styled.div`
 `
 export const CVButton = styled.button`
     background-color:  #000c14;
-    text-decoration: none;
-  color: papayawhip;
   font-size: 20px;
   padding: 10px 60px;
   border-radius: 15px;
   margin: 10px 0px;
   cursor: pointer;
+`
+export const CVLink = styled.a`
+      text-decoration: none;
+      color: papayawhip;
 `

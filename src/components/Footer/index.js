@@ -1,15 +1,15 @@
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { StyledFooter, Icons } from "./style";
+import { StyledFooter, Icons, FooterLinks } from "./style";
 function Footer() {
   return (
     <StyledFooter>
       <Icons>
-        <a href="https://www.linkedin.com/in/superfishal/">
+        <FooterLinks href="https://www.linkedin.com/in/superfishal/">
           <BsLinkedin />
-        </a>
-        <a href="https://github.com/superfishal">
+        </FooterLinks>
+        <FooterLinks href="https://github.com/superfishal">
           <BsGithub />
-        </a>
+        </FooterLinks>
       </Icons>
     </StyledFooter>
   );

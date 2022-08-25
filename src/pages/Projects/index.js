@@ -4,6 +4,7 @@ import deepthoughts from "../../assets/images/deepthoughts_cover_phot.png";
 import pizzahunt from "../../assets/images/pizzaHunt_cover_photo.png";
 import budget from "../../assets/images/budget-tracker-screenshot.png";
 import notetaker from "../../assets/images/NoteTake_cover_photo.png";
+import theaplha from "../../assets/images/Rascal-Erratic-v2.gif";
 import {
   ProjectContainer,
   ProjectCard,
@@ -14,17 +15,23 @@ import {
 } from "./style";
 const projects = [
   {
+    title: "The Alpha",
+    img: theaplha,
+    github: "https://github.com/superfishal/the-alpha",
+    deployed: "https://rascal-erratic.herokuapp.com/",
+  },
+  {
     title: "Poke Builder V2",
     img: poke,
     github: "https://github.com/superfishal/poke-builder-V2",
     deployed: "https://pokebuilder-v2.herokuapp.com/",
   },
-  {
-    title: "Proper Sound / Superfishal",
-    img: superfishal,
-    github: "https://www.facebook.com/propersoundpdx/",
-    deployed: "https://www.facebook.com/superfishaldj",
-  },
+  // {
+  //   title: "Proper Sound / Superfishal",
+  //   img: superfishal,
+  //   github: "https://www.facebook.com/propersoundpdx/",
+  //   deployed: "https://www.facebook.com/superfishaldj",
+  // },
   {
     title: "Deep Thoughts",
     img: deepthoughts,

@@ -1,8 +1,14 @@
 import React from "react";
-import { AboutMeText, AboutName, AboutContainer, AboutBold } from "./style";
+import {
+  AboutMeText,
+  SuperfishalImg,
+  AboutName,
+  AboutContainer,
+  AboutBold,
+} from "./style";
 import { Skills } from "../../components/Typewriter/style";
 import Type from "../../components/Typewriter/index";
-
+import superfishal from "../../assets/images/superFISHal.png";
 function AboutMe() {
   return (
     <AboutContainer>
@@ -11,6 +17,8 @@ function AboutMe() {
       <Skills>
         <Type />
       </Skills>
+      <br />
+      <SuperfishalImg src={superfishal} alt="Superfishal" />
       <AboutMeText>
         <br />
         Certified by the University of Oregon after completing a 24-week,

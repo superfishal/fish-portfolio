@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import { ResumeContainer, CVButton } from "./style";
-import pdf from "../../assets/images/RESUME-Andrew-Fish-2022.pdf";
+import { ResumeContainer, CVButton, CVLink } from "./style";
+import pdf from "../../assets/images/Andrew Fish-Resume-Aug 2022.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function Resume() {
@@ -13,20 +13,25 @@ function Resume() {
   }
   return (
     <ResumeContainer>
-      <CVButton>
-        <a href={pdf}>Download CV</a>
-        {/* how to make this download and not open new page? */}
-      </CVButton>
       <Document
         file={pdf}
+        loading="Loading Resume..."
         className="align-center"
         onLoadSuccess={onDocumentLoadSuccess}
       >
-        <Page pageNumber={1} />
+        {[1, 2].map((page) => (
+          <Page pageNumber={page} />
+        ))}
       </Document>
-      <p>
+      <CVButton>
+        <CVLink href={pdf} target="_blank">
+          Download CV
+        </CVLink>
+        {/* how to make this download and not open new page? */}
+      </CVButton>
+      {/* <p>
         Page {pageNumber} of {numPages}
-      </p>
+      </p> */}
     </ResumeContainer>
   );
 }
