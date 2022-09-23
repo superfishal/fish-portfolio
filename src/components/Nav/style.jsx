@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export const Nav = styled.nav`
     font-family: "Mochiy Pop One";
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     padding: 1rem;

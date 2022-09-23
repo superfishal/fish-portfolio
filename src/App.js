@@ -9,8 +9,8 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
+      <NavBar />
       <div className="appFlex">
-        <NavBar />
         <div className="main-stuff">
           <Routes>
             <Route path="/" element={<AboutMe />} />
