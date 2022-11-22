@@ -9,16 +9,17 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <NavBar />
       <div className="appFlex">
         <div className="main-stuff">
+          <NavBar />
           <Routes>
             <Route path="/" element={<AboutMe />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
+
+          <Footer />
         </div>
-        <Footer />
       </div>
     </BrowserRouter>
   );
