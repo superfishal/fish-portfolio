@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fish-portfolio/static/css/main.84cfe1d2.css",
-    "main.js": "/fish-portfolio/static/js/main.80bccffd.js",
+    "main.js": "/fish-portfolio/static/js/main.db3d2c0e.js",
     "static/js/787.01215f53.chunk.js": "/fish-portfolio/static/js/787.01215f53.chunk.js",
     "static/media/Rascal-Erratic-v2.gif": "/fish-portfolio/static/media/Rascal-Erratic-v2.f7020e0553ee4c80697b.gif",
     "static/media/pizzaHunt_cover_photo.png": "/fish-portfolio/static/media/pizzaHunt_cover_photo.48663d0d0d9fd36bd245.png",
@@ -15,11 +15,11 @@
     "static/media/NoteTake_cover_photo.png": "/fish-portfolio/static/media/NoteTake_cover_photo.79c497f1a4a1685b6048.png",
     "index.html": "/fish-portfolio/index.html",
     "main.84cfe1d2.css.map": "/fish-portfolio/static/css/main.84cfe1d2.css.map",
-    "main.80bccffd.js.map": "/fish-portfolio/static/js/main.80bccffd.js.map",
+    "main.db3d2c0e.js.map": "/fish-portfolio/static/js/main.db3d2c0e.js.map",
     "787.01215f53.chunk.js.map": "/fish-portfolio/static/js/787.01215f53.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84cfe1d2.css",
-    "static/js/main.80bccffd.js"
+    "static/js/main.db3d2c0e.js"
   ]
 }
