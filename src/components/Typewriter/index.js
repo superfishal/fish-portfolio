@@ -8,7 +8,10 @@ function Type() {
         strings: [
           "Full Stack Developer",
           "MERN Stack",
-          "Javascript",
+          "Object Oriented Programming Languages",
+          "Servers",
+          "Databases",
+          "JavaScript",
           "UX/UI",
           "SQL",
           "GraphQL",

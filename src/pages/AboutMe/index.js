@@ -9,24 +9,25 @@ import {
 import { Skills } from "../../components/Typewriter/style";
 import Type from "../../components/Typewriter/index";
 import superfishal from "../../assets/images/superFISHal.png";
+import andy from "../../assets/images/andy.jpg";
 function AboutMe() {
   return (
     <AboutContainer>
-      <AboutName>Superfishal</AboutName>
+      <AboutName>Hi! I'm Andy.</AboutName>
       <br />
+      <SuperfishalImg src={andy} alt="Superfishal" />
       <Skills>
         <Type />
       </Skills>
       <br />
-      <SuperfishalImg src={superfishal} alt="Superfishal" />
       <AboutMeText>
         <br />
         Certified by the University of Oregon after completing a 24-week,
         intensive full-stack bootcamp on:
         <br />
         <AboutBold>
-          HTML5, CSS3, Javascript ES6+, database languages, MERN stack, Command
-          Line and Git.
+          HTML5, CSS3, Javascript ES6+, SQL, NoSQL, ORM/ODM's, PWA's, MERN
+          stack, Command Line and Git.
         </AboutBold>
         <br />I am a strong team player and passionate about furthering my
         knowledge in the field.

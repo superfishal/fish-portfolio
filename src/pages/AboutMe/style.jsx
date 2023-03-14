@@ -4,7 +4,7 @@ export const AboutContainer = styled.div`
     padding: 10px;
 `
 export const AboutName = styled.h1`
-    font-size: 8vw;
+    font-size: 6vw;
     font-family: "Mochiy Pop One";
     text-shadow: 1px 1px salmon;
 `
@@ -18,8 +18,8 @@ export const AboutBold = styled.h3`
 `
 export const SuperfishalImg = styled.img`
         border:1px 1px mistyrose;
-        height:auto;
-        width:50%;
+        max-height:500px;
+        max-width:250px;
         border-radius: 5px;
         box-shadow: 2px 2px 20px salmon;
 `

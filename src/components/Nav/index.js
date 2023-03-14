@@ -6,7 +6,7 @@ function NavBar() {
     <Nav>
       <Superfishal>
         <GiCirclingFish />
-        Superfishal
+        A. Fish
       </Superfishal>
       <NavLinks>
         <NavLink to="/">

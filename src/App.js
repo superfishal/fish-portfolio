@@ -17,10 +17,10 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
-
-          <Footer />
         </div>
       </div>
+
+      <Footer />
     </BrowserRouter>
   );
 }
